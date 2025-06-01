@@ -21,7 +21,7 @@ jobs:
         run: pnpm install
 
       - name: Lint
-        run: pnpm run lint
+        run: pnpm run lint -- --ignore-path .eslintignore
 
   build:
     strategy:
