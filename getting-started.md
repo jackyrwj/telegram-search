@@ -145,8 +145,8 @@ Telegram Search 提供以下核心功能：
 ```yaml
 api:
   telegram:
-    apiId: 你的 API ID
-    apiHash: 你的 API Hash
+    apiId: 611335
+    apiHash: d524b414d21f4d37f08684c1df41ac9c
 ```
 
 ### OpenAI API 配置
@@ -255,8 +255,8 @@ path:
 # API 设置
 api:
   telegram:
-    apiId: 你的 API ID
-    apiHash: 你的 API 哈希
+    apiId: 611335
+    apiHash: d524b414d21f4d37f08684c1df41ac9c
   embedding:
     provider: openai
     model: text-embedding-3-small
@@ -277,7 +277,7 @@ api:
 
 1. 登录成功后，在左侧边栏可以看到你的 Telegram 对话列表
 2. 打开同步页面，选择你需要同步的会话
-3. 在Telegram官方服务通知中同意“⚠️ Data export request.”
+3. 在Telegram官方服务通知中同意"⚠️ Data export request."
 4. 等待同步完成，这可能需要一些时间，取决于聊天记录的数量
 
 ### 搜索聊天记录

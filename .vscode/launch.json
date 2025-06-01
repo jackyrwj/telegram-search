@@ -5,22 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node-terminal",
-      "name": "Run Script: dev:server",
+      "name": "Launch Program",
+      "type": "cppvsdbg",
       "request": "launch",
-      "command": "pnpm run dev:server",
+      "program": "${workspaceFolder}/output.exe",
+      "args": [],
+      "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
-      "skipFiles": [
-        "<node_internals>/**",
-        "${workspaceFolder}/node_modules/**"
-      ]
-    },
-    {
-      "type": "node-terminal",
-      "name": "Run Script: dev:frontend",
-      "request": "launch",
-      "command": "pnpm run dev:frontend",
-      "cwd": "${workspaceFolder}"
+      "environment": [],
+      "externalConsole": true
     }
   ]
 }

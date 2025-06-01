@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build with cl",
+      "type": "shell",
+      "command": "cl",
+      "args": [
+        "/EHsc",
+        "/Fe:output.exe",
+        "${workspaceFolder}\\main.cpp"
+      ],
+      "options": {
+        "env": {
+          "PATH": "${env:PATH};C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
